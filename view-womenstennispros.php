@@ -14,8 +14,8 @@ while ($womenstennispro = $womenstennispros ->fetch_assoc()
 ?>
   <tr>
     <td><?php echo $womenstennispro['w_tennispro_id']; ?></td>
-    <td></td>
-    <td></td>
+    <td><?php echo $womenstennispro['w_tennispro_name']; ?></td>
+    <td><?php echo $womenstennispro['country']; ?></td>
   </tr>
 <?php 
    </tbody>
